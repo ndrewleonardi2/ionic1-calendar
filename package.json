@@ -1,0 +1,25 @@
+{
+  "name": "ionic1-calendar",
+  "version": "1.0.0",
+  "description": "A simple, configurable, calendar component for ionicv1 and angular.js ",
+  "main": "index.js",
+  "repository": "https://github.com/ndrewleonardi2/ionic1-calendar.git",
+  "author": "Andrew Leonardi <ndrewleonardi2@users.noreply.github.com>",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "build": "webpack --config webpack.prod.js",
+    "start": "webpack-dev-server --open --config webpack.dev.js"
+  },
+  "dependencies": {
+    "uglifyjs-webpack-plugin": "^1.2.7"
+  },
+  "devDependencies": {
+    "clean-webpack-plugin": "^0.1.19",
+    "html-webpack-plugin": "^3.2.0",
+    "webpack": "^4.15.1",
+    "webpack-cli": "^3.0.8",
+    "webpack-dev-server": "^3.1.4",
+    "webpack-merge": "^4.1.3"
+  }
+}
